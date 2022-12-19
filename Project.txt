@@ -1,0 +1,46 @@
+      Contact Management App
+
+      1. create a Angular project
+      2. Install bootstrap and font awesome (npm i bootstrap @fortawesome/fontawesome-free)
+      3. Paste cdn link of font-awesome in index.html (https://cdnjs.com/libraries/font-awesome)
+      4. configure the bootstrap and fontawesome in angular.json ("node_modiles/bootstrap/dist/css/bootstrap.min.css")
+      5. Configure "Scripts" in angular.json along with style
+      6. configure google font in style.css / index.html
+      7. Check all if is fine
+      8. Create components needed to display in webpage
+         - contactManager - View all contacts
+         - addContact - add a new contactApp
+         - updateContact - to edit the existing contact
+         - viewContact - to view a particular contact
+         - page not found - to display 
+         - navbar - place its selector inside root component html page
+      9. Set up path for each component  in order to view it in browser 
+        - set up path for each component om app-routing.module.ts, routes array
+        - in app.component.html add router-outlet selector for displaying different web pages
+
+
+
+      10 - Desing HTML of each component  
+     11. Set up the server API - 
+     - create server folder inside the project
+     - create db.json file
+     - open cmd from server folder
+     - create package.json file - command: npm init
+     - install json-server inside server folder command: npm i json-server
+     - update package.jason file script as- "start": "json-server --watch db.json --port 3000"
+     - to run server use command : npm start
+
+     12. Create model for contacts and groups
+     - Create model folder in src folder
+     - Create a mycontact.ts file inside that folder (typescript)
+     - create mygroup.ts
+
+     13. Create an angular siervice for making api call
+     14. To get http methods - get,post,put,patch,delete
+         - Import HttpClientModule in app.module.ts
+         - HttpClient
+
+
+
+
+

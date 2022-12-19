@@ -1,0 +1,45 @@
+ANGULAR - front end development framework
+
+basic commands
+1. Create project - ng new projectname
+2. Run project - ng serve -o
+3. Generating Components: ng g c componentname
+4.Angular services - ng g s service-folder/service-name
+5. Angular pipe - ng g p pipe-folder/pipe-name
+
+
+basic building blocks
+
+1. Module - Used to import 3rd parties libraries
+2. Components - To create HTML page (html,css,ts)
+3. Selector - It will replace the html page for that component
+4. Angular services - Reusable code that can share between components
+5. Asynchronous functuin - RxJs
+6. Observable - 
+   subscribe(call back)
+   7. to get http methods
+   8. dependency injection - perform inside constructor
+      syntax: access specifier variable-name:class-name
+   9. Data Binding - Data sharing inside a component
+      - One way Binding 
+        - Components (ts) to view (html)
+           String Interpolation - {{class variable name}}
+           property Binding - [attribute]="property-name"
+        - view(html) to component (ts)
+          event binding - (event-name)="function-name()"
+          event binding using $event argument - (event-name)="function-name($event)"
+      - Two way binding
+        - using ngModel:
+          -Import FormsModule in appModule
+          - [(ngModel)]="property-name"
+
+
+   10. Directives - DOM Manipulation
+      - Component Directives
+      - Structural Directives - to add or remove html elements based on a condition or length of an array.
+         *ngIf ="condition"
+         *ngFor="let variable-name of array-name"   
+
+         11. Pipe -  transform user input to another format
+
+
