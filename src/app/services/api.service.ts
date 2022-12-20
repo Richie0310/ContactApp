@@ -45,4 +45,11 @@ export class ApiService {
 
   }
 
+  // function for deleting a contact
+
+  deleteContact(contactId:any){
+    this.http.delete(`${this.baseUrl}/${contactId}`)
+
+  }
+
 }
