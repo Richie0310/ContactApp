@@ -1,26 +1,6 @@
 {
   "contacts": [
     {
-      "id": "c1",
-      "name": "Tom Cruise",
-      "email": "Sincere@april.biz",
-      "photo": "https://qph.fs.quoracdn.net/main-qimg-183fce3cab061672b7515b55bb22c7bc",
-      "mobile": "9876557432",
-      "company": "roonajhf-ca",
-      "title": "CEO",
-      "groupId": "1"
-    },
-    {
-      "id": "ca2",
-      "name": "Dwayne Johnson",
-      "email": "Shanna@melissa.tv",
-      "photo": "https://tse2.mm.bing.net/th?id=OIP.hxknN5b25zel3hJCKa_xmQHaJi&pid=Api&P=0",
-      "mobile": "9876543210",
-      "company": "Deckow-Crist",
-      "title": "Network Admin",
-      "groupId": "2"
-    },
-    {
       "id": "ca3",
       "name": "Ryan ronalds",
       "email": "Nathan@yesenia.net",
@@ -78,16 +58,6 @@
       "mobile": "9876543210",
       "company": "Abernathy Group",
       "title": "Developer",
-      "groupId": "4"
-    },
-    {
-      "id": "ca9",
-      "name": "Robert Downey Jr",
-      "photo": "https://th.bing.com/th/id/R.356b97b5f076b38d0bfe4877b3ecf1f5?rik=psaJLhxNRfgqzw&riu=http%3a%2f%2fimages2.wikia.nocookie.net%2f__cb20130429010605%2fmarvelcentral%2fimages%2f9%2f97%2fTony-Stark.jpg&ehk=c8lAQ%2b9UU50UDcuNfWt%2byIeU6Wwzsvup%2b%2fXkbfpHdn4%3d&risl=&pid=ImgRaw&r=0",
-      "email": "dafefwe@wer.com",
-      "mobile": "46772299228",
-      "company": "Stark Industries",
-      "title": "CEO",
       "groupId": "4"
     }
   ],
