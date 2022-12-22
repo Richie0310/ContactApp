@@ -2,13 +2,13 @@
   "contacts": [
     {
       "id": "ca3",
-      "name": "Ryan ronalds",
+      "name": "Ryan ronalds ",
       "email": "Nathan@yesenia.net",
       "photo": "https://tse4.mm.bing.net/th?id=OIP.bnMZqZBnjB_bx2yrH54X-QHaLI&pid=Api&P=0",
       "mobile": "9876543210",
       "company": "Romaguera-Jacobson",
       "title": "Tester",
-      "groupId": "3"
+      "groupId": "group.id"
     },
     {
       "id": "ca4",

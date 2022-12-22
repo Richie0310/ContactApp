@@ -52,4 +52,12 @@ export class ApiService {
 
   }
 
+  // Update contact details according to the user select
+
+  updateContact(contactId:any,contactBody:any){
+    return this.http.put(`${this.baseUrl}/${contactId}`,contactBody)
+  }
+
+  
+
 }
